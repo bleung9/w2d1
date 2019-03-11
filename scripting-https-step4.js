@@ -11,7 +11,8 @@ function getHTML (options, callback) {
     })
 
     response.on("end", function() {
-      console.log("Stream complete.  HERE'S THE DATA:", callback(output));
+      console.log("Stream complete.  HERE'S THE DATA:");
+      callback(output);
     })
   })
 }

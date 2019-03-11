@@ -1,0 +1,1157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/vagrant/.nvm/versions/node/v8.9.4/bin/node',
+1 verbose cli   '/home/vagrant/.nvm/versions/node/v8.9.4/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'request' ]
+2 info using npm@6.8.0
+3 info using node@v8.9.4
+4 verbose npm-session 49168e41b47d4aa2
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/request 38ms (from cache)
+8 silly pacote tag manifest for request@latest fetched in 56ms
+9 timing stage:loadCurrentTree Completed in 138ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 4ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule request@2.88.0 checking installable status
+17 http fetch GET 200 https://registry.npmjs.org/http-signature 196ms (from cache)
+18 silly pacote range manifest for http-signature@~1.2.0 fetched in 198ms
+19 silly resolveWithNewModule http-signature@1.2.0 checking installable status
+20 http fetch GET 304 https://registry.npmjs.org/extend 321ms (from cache)
+21 http fetch GET 304 https://registry.npmjs.org/aws4 331ms (from cache)
+22 http fetch GET 304 https://registry.npmjs.org/caseless 330ms (from cache)
+23 http fetch GET 304 https://registry.npmjs.org/aws-sign2 335ms (from cache)
+24 http fetch GET 304 https://registry.npmjs.org/combined-stream 328ms (from cache)
+25 silly pacote range manifest for extend@~3.0.2 fetched in 331ms
+26 silly resolveWithNewModule extend@3.0.2 checking installable status
+27 silly pacote range manifest for aws4@^1.8.0 fetched in 342ms
+28 silly resolveWithNewModule aws4@1.8.0 checking installable status
+29 silly pacote range manifest for caseless@~0.12.0 fetched in 340ms
+30 silly resolveWithNewModule caseless@0.12.0 checking installable status
+31 silly pacote range manifest for aws-sign2@~0.7.0 fetched in 347ms
+32 silly resolveWithNewModule aws-sign2@0.7.0 checking installable status
+33 silly pacote range manifest for combined-stream@~1.0.6 fetched in 345ms
+34 silly resolveWithNewModule combined-stream@1.0.7 checking installable status
+35 http fetch GET 304 https://registry.npmjs.org/forever-agent 368ms (from cache)
+36 http fetch GET 304 https://registry.npmjs.org/form-data 366ms (from cache)
+37 http fetch GET 304 https://registry.npmjs.org/is-typedarray 363ms (from cache)
+38 silly pacote range manifest for forever-agent@~0.6.1 fetched in 377ms
+39 silly resolveWithNewModule forever-agent@0.6.1 checking installable status
+40 silly pacote range manifest for form-data@~2.3.2 fetched in 376ms
+41 silly resolveWithNewModule form-data@2.3.3 checking installable status
+42 silly pacote range manifest for is-typedarray@~1.0.0 fetched in 377ms
+43 silly resolveWithNewModule is-typedarray@1.0.0 checking installable status
+44 http fetch GET 304 https://registry.npmjs.org/isstream 189ms (from cache)
+45 silly pacote range manifest for isstream@~0.1.2 fetched in 221ms
+46 silly resolveWithNewModule isstream@0.1.2 checking installable status
+47 http fetch GET 304 https://registry.npmjs.org/json-stringify-safe 187ms (from cache)
+48 http fetch GET 304 https://registry.npmjs.org/oauth-sign 189ms (from cache)
+49 silly pacote range manifest for json-stringify-safe@~5.0.1 fetched in 195ms
+50 silly resolveWithNewModule json-stringify-safe@5.0.1 checking installable status
+51 http fetch GET 304 https://registry.npmjs.org/qs 191ms (from cache)
+52 http fetch GET 304 https://registry.npmjs.org/mime-types 196ms (from cache)
+53 http fetch GET 304 https://registry.npmjs.org/performance-now 195ms (from cache)
+54 silly pacote range manifest for oauth-sign@~0.9.0 fetched in 201ms
+55 silly resolveWithNewModule oauth-sign@0.9.0 checking installable status
+56 silly pacote range manifest for qs@~6.5.2 fetched in 202ms
+57 silly resolveWithNewModule qs@6.5.2 checking installable status
+58 silly pacote range manifest for mime-types@~2.1.19 fetched in 206ms
+59 silly resolveWithNewModule mime-types@2.1.22 checking installable status
+60 silly pacote range manifest for performance-now@^2.1.0 fetched in 205ms
+61 silly resolveWithNewModule performance-now@2.1.0 checking installable status
+62 http fetch GET 304 https://registry.npmjs.org/safe-buffer 168ms (from cache)
+63 silly pacote range manifest for safe-buffer@^5.1.2 fetched in 172ms
+64 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+65 http fetch GET 304 https://registry.npmjs.org/tunnel-agent 162ms (from cache)
+66 http fetch GET 304 https://registry.npmjs.org/uuid 120ms (from cache)
+67 http fetch GET 304 https://registry.npmjs.org/tough-cookie 174ms (from cache)
+68 silly pacote range manifest for tunnel-agent@^0.6.0 fetched in 169ms
+69 silly resolveWithNewModule tunnel-agent@0.6.0 checking installable status
+70 silly pacote range manifest for uuid@^3.3.2 fetched in 126ms
+71 silly resolveWithNewModule uuid@3.3.2 checking installable status
+72 silly pacote range manifest for tough-cookie@~2.4.3 fetched in 180ms
+73 silly resolveWithNewModule tough-cookie@2.4.3 checking installable status
+74 http fetch GET 304 https://registry.npmjs.org/har-validator 1251ms (from cache)
+75 silly pacote range manifest for har-validator@~5.1.0 fetched in 1254ms
+76 silly resolveWithNewModule har-validator@5.1.3 checking installable status
+77 http fetch GET 304 https://registry.npmjs.org/delayed-stream 26ms (from cache)
+78 silly pacote range manifest for delayed-stream@~1.0.0 fetched in 28ms
+79 silly resolveWithNewModule delayed-stream@1.0.0 checking installable status
+80 http fetch GET 304 https://registry.npmjs.org/asynckit 36ms (from cache)
+81 silly pacote range manifest for asynckit@^0.4.0 fetched in 39ms
+82 silly resolveWithNewModule asynckit@0.4.0 checking installable status
+83 http fetch GET 304 https://registry.npmjs.org/mime-db 27ms (from cache)
+84 silly pacote range manifest for mime-db@~1.38.0 fetched in 39ms
+85 silly resolveWithNewModule mime-db@1.38.0 checking installable status
+86 http fetch GET 304 https://registry.npmjs.org/ajv 59ms (from cache)
+87 http fetch GET 304 https://registry.npmjs.org/har-schema 71ms (from cache)
+88 silly pacote range manifest for ajv@^6.5.5 fetched in 76ms
+89 silly resolveWithNewModule ajv@6.10.0 checking installable status
+90 silly pacote range manifest for har-schema@^2.0.0 fetched in 82ms
+91 silly resolveWithNewModule har-schema@2.0.0 checking installable status
+92 http fetch GET 304 https://registry.npmjs.org/fast-deep-equal 71ms (from cache)
+93 silly pacote range manifest for fast-deep-equal@^2.0.1 fetched in 81ms
+94 silly resolveWithNewModule fast-deep-equal@2.0.1 checking installable status
+95 http fetch GET 304 https://registry.npmjs.org/fast-json-stable-stringify 81ms (from cache)
+96 http fetch GET 304 https://registry.npmjs.org/uri-js 81ms (from cache)
+97 http fetch GET 304 https://registry.npmjs.org/json-schema-traverse 83ms (from cache)
+98 silly pacote range manifest for fast-json-stable-stringify@^2.0.0 fetched in 86ms
+99 silly resolveWithNewModule fast-json-stable-stringify@2.0.0 checking installable status
+100 silly pacote range manifest for uri-js@^4.2.2 fetched in 84ms
+101 silly resolveWithNewModule uri-js@4.2.2 checking installable status
+102 silly pacote range manifest for json-schema-traverse@^0.4.1 fetched in 87ms
+103 silly resolveWithNewModule json-schema-traverse@0.4.1 checking installable status
+104 http fetch GET 304 https://registry.npmjs.org/punycode 23ms (from cache)
+105 silly pacote range manifest for punycode@^2.1.0 fetched in 24ms
+106 silly resolveWithNewModule punycode@2.1.1 checking installable status
+107 http fetch GET 200 https://registry.npmjs.org/sshpk 10ms (from cache)
+108 silly pacote range manifest for sshpk@^1.7.0 fetched in 12ms
+109 silly resolveWithNewModule sshpk@1.16.1 checking installable status
+110 http fetch GET 304 https://registry.npmjs.org/assert-plus 43ms (from cache)
+111 silly pacote range manifest for assert-plus@^1.0.0 fetched in 45ms
+112 silly resolveWithNewModule assert-plus@1.0.0 checking installable status
+113 http fetch GET 304 https://registry.npmjs.org/jsprim 47ms (from cache)
+114 silly pacote range manifest for jsprim@^1.2.2 fetched in 51ms
+115 silly resolveWithNewModule jsprim@1.4.1 checking installable status
+116 http fetch GET 304 https://registry.npmjs.org/extsprintf 44ms (from cache)
+117 silly pacote version manifest for extsprintf@1.3.0 fetched in 50ms
+118 silly resolveWithNewModule extsprintf@1.3.0 checking installable status
+119 http fetch GET 304 https://registry.npmjs.org/verror 61ms (from cache)
+120 http fetch GET 304 https://registry.npmjs.org/json-schema 64ms (from cache)
+121 silly pacote version manifest for verror@1.10.0 fetched in 66ms
+122 silly resolveWithNewModule verror@1.10.0 checking installable status
+123 silly pacote version manifest for json-schema@0.2.3 fetched in 68ms
+124 silly resolveWithNewModule json-schema@0.2.3 checking installable status
+125 http fetch GET 304 https://registry.npmjs.org/core-util-is 31ms (from cache)
+126 silly pacote version manifest for core-util-is@1.0.2 fetched in 34ms
+127 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+128 http fetch GET 200 https://registry.npmjs.org/asn1 29ms (from cache)
+129 http fetch GET 200 https://registry.npmjs.org/dashdash 28ms (from cache)
+130 http fetch GET 200 https://registry.npmjs.org/getpass 33ms (from cache)
+131 http fetch GET 200 https://registry.npmjs.org/safer-buffer 33ms (from cache)
+132 http fetch GET 200 https://registry.npmjs.org/jsbn 33ms (from cache)
+133 http fetch GET 200 https://registry.npmjs.org/tweetnacl 32ms (from cache)
+134 http fetch GET 200 https://registry.npmjs.org/ecc-jsbn 36ms (from cache)
+135 http fetch GET 200 https://registry.npmjs.org/bcrypt-pbkdf 35ms (from cache)
+136 silly pacote range manifest for asn1@~0.2.3 fetched in 46ms
+137 silly resolveWithNewModule asn1@0.2.4 checking installable status
+138 silly pacote range manifest for dashdash@^1.12.0 fetched in 44ms
+139 silly resolveWithNewModule dashdash@1.14.1 checking installable status
+140 silly pacote range manifest for getpass@^0.1.1 fetched in 44ms
+141 silly resolveWithNewModule getpass@0.1.7 checking installable status
+142 silly pacote range manifest for safer-buffer@^2.0.2 fetched in 44ms
+143 silly resolveWithNewModule safer-buffer@2.1.2 checking installable status
+144 silly pacote range manifest for jsbn@~0.1.0 fetched in 45ms
+145 silly resolveWithNewModule jsbn@0.1.1 checking installable status
+146 silly pacote range manifest for tweetnacl@~0.14.0 fetched in 44ms
+147 silly resolveWithNewModule tweetnacl@0.14.5 checking installable status
+148 silly pacote range manifest for ecc-jsbn@~0.1.1 fetched in 44ms
+149 silly resolveWithNewModule ecc-jsbn@0.1.2 checking installable status
+150 silly pacote range manifest for bcrypt-pbkdf@^1.0.0 fetched in 44ms
+151 silly resolveWithNewModule bcrypt-pbkdf@1.0.2 checking installable status
+152 silly pacote range manifest for punycode@^1.4.1 fetched in 7ms
+153 silly resolveWithNewModule punycode@1.4.1 checking installable status
+154 http fetch GET 304 https://registry.npmjs.org/psl 33ms (from cache)
+155 silly pacote range manifest for psl@^1.1.24 fetched in 37ms
+156 silly resolveWithNewModule psl@1.1.31 checking installable status
+157 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 1912ms
+158 timing stage:loadIdealTree Completed in 1946ms
+159 silly currentTree request-package@1.0.0
+160 silly idealTree request-package@1.0.0
+160 silly idealTree ├── ajv@6.10.0
+160 silly idealTree ├── asn1@0.2.4
+160 silly idealTree ├── assert-plus@1.0.0
+160 silly idealTree ├── asynckit@0.4.0
+160 silly idealTree ├── aws-sign2@0.7.0
+160 silly idealTree ├── aws4@1.8.0
+160 silly idealTree ├── bcrypt-pbkdf@1.0.2
+160 silly idealTree ├── caseless@0.12.0
+160 silly idealTree ├── combined-stream@1.0.7
+160 silly idealTree ├── core-util-is@1.0.2
+160 silly idealTree ├── dashdash@1.14.1
+160 silly idealTree ├── delayed-stream@1.0.0
+160 silly idealTree ├── ecc-jsbn@0.1.2
+160 silly idealTree ├── extend@3.0.2
+160 silly idealTree ├── extsprintf@1.3.0
+160 silly idealTree ├── fast-deep-equal@2.0.1
+160 silly idealTree ├── fast-json-stable-stringify@2.0.0
+160 silly idealTree ├── forever-agent@0.6.1
+160 silly idealTree ├── form-data@2.3.3
+160 silly idealTree ├── getpass@0.1.7
+160 silly idealTree ├── har-schema@2.0.0
+160 silly idealTree ├── har-validator@5.1.3
+160 silly idealTree ├── http-signature@1.2.0
+160 silly idealTree ├── is-typedarray@1.0.0
+160 silly idealTree ├── isstream@0.1.2
+160 silly idealTree ├── jsbn@0.1.1
+160 silly idealTree ├── json-schema-traverse@0.4.1
+160 silly idealTree ├── json-schema@0.2.3
+160 silly idealTree ├── json-stringify-safe@5.0.1
+160 silly idealTree ├── jsprim@1.4.1
+160 silly idealTree ├── mime-db@1.38.0
+160 silly idealTree ├── mime-types@2.1.22
+160 silly idealTree ├── oauth-sign@0.9.0
+160 silly idealTree ├── performance-now@2.1.0
+160 silly idealTree ├── psl@1.1.31
+160 silly idealTree ├── punycode@2.1.1
+160 silly idealTree ├── qs@6.5.2
+160 silly idealTree ├── request@2.88.0
+160 silly idealTree ├── safe-buffer@5.1.2
+160 silly idealTree ├── safer-buffer@2.1.2
+160 silly idealTree ├── sshpk@1.16.1
+160 silly idealTree ├─┬ tough-cookie@2.4.3
+160 silly idealTree │ └── punycode@1.4.1
+160 silly idealTree ├── tunnel-agent@0.6.0
+160 silly idealTree ├── tweetnacl@0.14.5
+160 silly idealTree ├── uri-js@4.2.2
+160 silly idealTree ├── uuid@3.3.2
+160 silly idealTree └── verror@1.10.0
+161 silly install generateActionsToTake
+162 timing stage:generateActionsToTake Completed in 69ms
+163 silly diffTrees action count 48
+164 silly diffTrees add assert-plus@1.0.0
+165 silly diffTrees add asynckit@0.4.0
+166 silly diffTrees add core-util-is@1.0.2
+167 silly diffTrees add dashdash@1.14.1
+168 silly diffTrees add delayed-stream@1.0.0
+169 silly diffTrees add combined-stream@1.0.7
+170 silly diffTrees add extsprintf@1.3.0
+171 silly diffTrees add fast-deep-equal@2.0.1
+172 silly diffTrees add fast-json-stable-stringify@2.0.0
+173 silly diffTrees add getpass@0.1.7
+174 silly diffTrees add har-schema@2.0.0
+175 silly diffTrees add jsbn@0.1.1
+176 silly diffTrees add json-schema@0.2.3
+177 silly diffTrees add json-schema-traverse@0.4.1
+178 silly diffTrees add mime-db@1.38.0
+179 silly diffTrees add mime-types@2.1.22
+180 silly diffTrees add psl@1.1.31
+181 silly diffTrees add punycode@2.1.1
+182 silly diffTrees add safe-buffer@5.1.2
+183 silly diffTrees add safer-buffer@2.1.2
+184 silly diffTrees add asn1@0.2.4
+185 silly diffTrees add ecc-jsbn@0.1.2
+186 silly diffTrees add punycode@1.4.1
+187 silly diffTrees add tweetnacl@0.14.5
+188 silly diffTrees add bcrypt-pbkdf@1.0.2
+189 silly diffTrees add sshpk@1.16.1
+190 silly diffTrees add uri-js@4.2.2
+191 silly diffTrees add ajv@6.10.0
+192 silly diffTrees add verror@1.10.0
+193 silly diffTrees add jsprim@1.4.1
+194 silly diffTrees add aws-sign2@0.7.0
+195 silly diffTrees add aws4@1.8.0
+196 silly diffTrees add caseless@0.12.0
+197 silly diffTrees add extend@3.0.2
+198 silly diffTrees add forever-agent@0.6.1
+199 silly diffTrees add form-data@2.3.3
+200 silly diffTrees add har-validator@5.1.3
+201 silly diffTrees add http-signature@1.2.0
+202 silly diffTrees add is-typedarray@1.0.0
+203 silly diffTrees add isstream@0.1.2
+204 silly diffTrees add json-stringify-safe@5.0.1
+205 silly diffTrees add oauth-sign@0.9.0
+206 silly diffTrees add performance-now@2.1.0
+207 silly diffTrees add qs@6.5.2
+208 silly diffTrees add tough-cookie@2.4.3
+209 silly diffTrees add tunnel-agent@0.6.0
+210 silly diffTrees add uuid@3.3.2
+211 silly diffTrees add request@2.88.0
+212 silly decomposeActions action count 384
+213 silly decomposeActions fetch assert-plus@1.0.0
+214 silly decomposeActions extract assert-plus@1.0.0
+215 silly decomposeActions preinstall assert-plus@1.0.0
+216 silly decomposeActions build assert-plus@1.0.0
+217 silly decomposeActions install assert-plus@1.0.0
+218 silly decomposeActions postinstall assert-plus@1.0.0
+219 silly decomposeActions finalize assert-plus@1.0.0
+220 silly decomposeActions refresh-package-json assert-plus@1.0.0
+221 silly decomposeActions fetch asynckit@0.4.0
+222 silly decomposeActions extract asynckit@0.4.0
+223 silly decomposeActions preinstall asynckit@0.4.0
+224 silly decomposeActions build asynckit@0.4.0
+225 silly decomposeActions install asynckit@0.4.0
+226 silly decomposeActions postinstall asynckit@0.4.0
+227 silly decomposeActions finalize asynckit@0.4.0
+228 silly decomposeActions refresh-package-json asynckit@0.4.0
+229 silly decomposeActions fetch core-util-is@1.0.2
+230 silly decomposeActions extract core-util-is@1.0.2
+231 silly decomposeActions preinstall core-util-is@1.0.2
+232 silly decomposeActions build core-util-is@1.0.2
+233 silly decomposeActions install core-util-is@1.0.2
+234 silly decomposeActions postinstall core-util-is@1.0.2
+235 silly decomposeActions finalize core-util-is@1.0.2
+236 silly decomposeActions refresh-package-json core-util-is@1.0.2
+237 silly decomposeActions fetch dashdash@1.14.1
+238 silly decomposeActions extract dashdash@1.14.1
+239 silly decomposeActions preinstall dashdash@1.14.1
+240 silly decomposeActions build dashdash@1.14.1
+241 silly decomposeActions install dashdash@1.14.1
+242 silly decomposeActions postinstall dashdash@1.14.1
+243 silly decomposeActions finalize dashdash@1.14.1
+244 silly decomposeActions refresh-package-json dashdash@1.14.1
+245 silly decomposeActions fetch delayed-stream@1.0.0
+246 silly decomposeActions extract delayed-stream@1.0.0
+247 silly decomposeActions preinstall delayed-stream@1.0.0
+248 silly decomposeActions build delayed-stream@1.0.0
+249 silly decomposeActions install delayed-stream@1.0.0
+250 silly decomposeActions postinstall delayed-stream@1.0.0
+251 silly decomposeActions finalize delayed-stream@1.0.0
+252 silly decomposeActions refresh-package-json delayed-stream@1.0.0
+253 silly decomposeActions fetch combined-stream@1.0.7
+254 silly decomposeActions extract combined-stream@1.0.7
+255 silly decomposeActions preinstall combined-stream@1.0.7
+256 silly decomposeActions build combined-stream@1.0.7
+257 silly decomposeActions install combined-stream@1.0.7
+258 silly decomposeActions postinstall combined-stream@1.0.7
+259 silly decomposeActions finalize combined-stream@1.0.7
+260 silly decomposeActions refresh-package-json combined-stream@1.0.7
+261 silly decomposeActions fetch extsprintf@1.3.0
+262 silly decomposeActions extract extsprintf@1.3.0
+263 silly decomposeActions preinstall extsprintf@1.3.0
+264 silly decomposeActions build extsprintf@1.3.0
+265 silly decomposeActions install extsprintf@1.3.0
+266 silly decomposeActions postinstall extsprintf@1.3.0
+267 silly decomposeActions finalize extsprintf@1.3.0
+268 silly decomposeActions refresh-package-json extsprintf@1.3.0
+269 silly decomposeActions fetch fast-deep-equal@2.0.1
+270 silly decomposeActions extract fast-deep-equal@2.0.1
+271 silly decomposeActions preinstall fast-deep-equal@2.0.1
+272 silly decomposeActions build fast-deep-equal@2.0.1
+273 silly decomposeActions install fast-deep-equal@2.0.1
+274 silly decomposeActions postinstall fast-deep-equal@2.0.1
+275 silly decomposeActions finalize fast-deep-equal@2.0.1
+276 silly decomposeActions refresh-package-json fast-deep-equal@2.0.1
+277 silly decomposeActions fetch fast-json-stable-stringify@2.0.0
+278 silly decomposeActions extract fast-json-stable-stringify@2.0.0
+279 silly decomposeActions preinstall fast-json-stable-stringify@2.0.0
+280 silly decomposeActions build fast-json-stable-stringify@2.0.0
+281 silly decomposeActions install fast-json-stable-stringify@2.0.0
+282 silly decomposeActions postinstall fast-json-stable-stringify@2.0.0
+283 silly decomposeActions finalize fast-json-stable-stringify@2.0.0
+284 silly decomposeActions refresh-package-json fast-json-stable-stringify@2.0.0
+285 silly decomposeActions fetch getpass@0.1.7
+286 silly decomposeActions extract getpass@0.1.7
+287 silly decomposeActions preinstall getpass@0.1.7
+288 silly decomposeActions build getpass@0.1.7
+289 silly decomposeActions install getpass@0.1.7
+290 silly decomposeActions postinstall getpass@0.1.7
+291 silly decomposeActions finalize getpass@0.1.7
+292 silly decomposeActions refresh-package-json getpass@0.1.7
+293 silly decomposeActions fetch har-schema@2.0.0
+294 silly decomposeActions extract har-schema@2.0.0
+295 silly decomposeActions preinstall har-schema@2.0.0
+296 silly decomposeActions build har-schema@2.0.0
+297 silly decomposeActions install har-schema@2.0.0
+298 silly decomposeActions postinstall har-schema@2.0.0
+299 silly decomposeActions finalize har-schema@2.0.0
+300 silly decomposeActions refresh-package-json har-schema@2.0.0
+301 silly decomposeActions fetch jsbn@0.1.1
+302 silly decomposeActions extract jsbn@0.1.1
+303 silly decomposeActions preinstall jsbn@0.1.1
+304 silly decomposeActions build jsbn@0.1.1
+305 silly decomposeActions install jsbn@0.1.1
+306 silly decomposeActions postinstall jsbn@0.1.1
+307 silly decomposeActions finalize jsbn@0.1.1
+308 silly decomposeActions refresh-package-json jsbn@0.1.1
+309 silly decomposeActions fetch json-schema@0.2.3
+310 silly decomposeActions extract json-schema@0.2.3
+311 silly decomposeActions preinstall json-schema@0.2.3
+312 silly decomposeActions build json-schema@0.2.3
+313 silly decomposeActions install json-schema@0.2.3
+314 silly decomposeActions postinstall json-schema@0.2.3
+315 silly decomposeActions finalize json-schema@0.2.3
+316 silly decomposeActions refresh-package-json json-schema@0.2.3
+317 silly decomposeActions fetch json-schema-traverse@0.4.1
+318 silly decomposeActions extract json-schema-traverse@0.4.1
+319 silly decomposeActions preinstall json-schema-traverse@0.4.1
+320 silly decomposeActions build json-schema-traverse@0.4.1
+321 silly decomposeActions install json-schema-traverse@0.4.1
+322 silly decomposeActions postinstall json-schema-traverse@0.4.1
+323 silly decomposeActions finalize json-schema-traverse@0.4.1
+324 silly decomposeActions refresh-package-json json-schema-traverse@0.4.1
+325 silly decomposeActions fetch mime-db@1.38.0
+326 silly decomposeActions extract mime-db@1.38.0
+327 silly decomposeActions preinstall mime-db@1.38.0
+328 silly decomposeActions build mime-db@1.38.0
+329 silly decomposeActions install mime-db@1.38.0
+330 silly decomposeActions postinstall mime-db@1.38.0
+331 silly decomposeActions finalize mime-db@1.38.0
+332 silly decomposeActions refresh-package-json mime-db@1.38.0
+333 silly decomposeActions fetch mime-types@2.1.22
+334 silly decomposeActions extract mime-types@2.1.22
+335 silly decomposeActions preinstall mime-types@2.1.22
+336 silly decomposeActions build mime-types@2.1.22
+337 silly decomposeActions install mime-types@2.1.22
+338 silly decomposeActions postinstall mime-types@2.1.22
+339 silly decomposeActions finalize mime-types@2.1.22
+340 silly decomposeActions refresh-package-json mime-types@2.1.22
+341 silly decomposeActions fetch psl@1.1.31
+342 silly decomposeActions extract psl@1.1.31
+343 silly decomposeActions preinstall psl@1.1.31
+344 silly decomposeActions build psl@1.1.31
+345 silly decomposeActions install psl@1.1.31
+346 silly decomposeActions postinstall psl@1.1.31
+347 silly decomposeActions finalize psl@1.1.31
+348 silly decomposeActions refresh-package-json psl@1.1.31
+349 silly decomposeActions fetch punycode@2.1.1
+350 silly decomposeActions extract punycode@2.1.1
+351 silly decomposeActions preinstall punycode@2.1.1
+352 silly decomposeActions build punycode@2.1.1
+353 silly decomposeActions install punycode@2.1.1
+354 silly decomposeActions postinstall punycode@2.1.1
+355 silly decomposeActions finalize punycode@2.1.1
+356 silly decomposeActions refresh-package-json punycode@2.1.1
+357 silly decomposeActions fetch safe-buffer@5.1.2
+358 silly decomposeActions extract safe-buffer@5.1.2
+359 silly decomposeActions preinstall safe-buffer@5.1.2
+360 silly decomposeActions build safe-buffer@5.1.2
+361 silly decomposeActions install safe-buffer@5.1.2
+362 silly decomposeActions postinstall safe-buffer@5.1.2
+363 silly decomposeActions finalize safe-buffer@5.1.2
+364 silly decomposeActions refresh-package-json safe-buffer@5.1.2
+365 silly decomposeActions fetch safer-buffer@2.1.2
+366 silly decomposeActions extract safer-buffer@2.1.2
+367 silly decomposeActions preinstall safer-buffer@2.1.2
+368 silly decomposeActions build safer-buffer@2.1.2
+369 silly decomposeActions install safer-buffer@2.1.2
+370 silly decomposeActions postinstall safer-buffer@2.1.2
+371 silly decomposeActions finalize safer-buffer@2.1.2
+372 silly decomposeActions refresh-package-json safer-buffer@2.1.2
+373 silly decomposeActions fetch asn1@0.2.4
+374 silly decomposeActions extract asn1@0.2.4
+375 silly decomposeActions preinstall asn1@0.2.4
+376 silly decomposeActions build asn1@0.2.4
+377 silly decomposeActions install asn1@0.2.4
+378 silly decomposeActions postinstall asn1@0.2.4
+379 silly decomposeActions finalize asn1@0.2.4
+380 silly decomposeActions refresh-package-json asn1@0.2.4
+381 silly decomposeActions fetch ecc-jsbn@0.1.2
+382 silly decomposeActions extract ecc-jsbn@0.1.2
+383 silly decomposeActions preinstall ecc-jsbn@0.1.2
+384 silly decomposeActions build ecc-jsbn@0.1.2
+385 silly decomposeActions install ecc-jsbn@0.1.2
+386 silly decomposeActions postinstall ecc-jsbn@0.1.2
+387 silly decomposeActions finalize ecc-jsbn@0.1.2
+388 silly decomposeActions refresh-package-json ecc-jsbn@0.1.2
+389 silly decomposeActions fetch punycode@1.4.1
+390 silly decomposeActions extract punycode@1.4.1
+391 silly decomposeActions preinstall punycode@1.4.1
+392 silly decomposeActions build punycode@1.4.1
+393 silly decomposeActions install punycode@1.4.1
+394 silly decomposeActions postinstall punycode@1.4.1
+395 silly decomposeActions finalize punycode@1.4.1
+396 silly decomposeActions refresh-package-json punycode@1.4.1
+397 silly decomposeActions fetch tweetnacl@0.14.5
+398 silly decomposeActions extract tweetnacl@0.14.5
+399 silly decomposeActions preinstall tweetnacl@0.14.5
+400 silly decomposeActions build tweetnacl@0.14.5
+401 silly decomposeActions install tweetnacl@0.14.5
+402 silly decomposeActions postinstall tweetnacl@0.14.5
+403 silly decomposeActions finalize tweetnacl@0.14.5
+404 silly decomposeActions refresh-package-json tweetnacl@0.14.5
+405 silly decomposeActions fetch bcrypt-pbkdf@1.0.2
+406 silly decomposeActions extract bcrypt-pbkdf@1.0.2
+407 silly decomposeActions preinstall bcrypt-pbkdf@1.0.2
+408 silly decomposeActions build bcrypt-pbkdf@1.0.2
+409 silly decomposeActions install bcrypt-pbkdf@1.0.2
+410 silly decomposeActions postinstall bcrypt-pbkdf@1.0.2
+411 silly decomposeActions finalize bcrypt-pbkdf@1.0.2
+412 silly decomposeActions refresh-package-json bcrypt-pbkdf@1.0.2
+413 silly decomposeActions fetch sshpk@1.16.1
+414 silly decomposeActions extract sshpk@1.16.1
+415 silly decomposeActions preinstall sshpk@1.16.1
+416 silly decomposeActions build sshpk@1.16.1
+417 silly decomposeActions install sshpk@1.16.1
+418 silly decomposeActions postinstall sshpk@1.16.1
+419 silly decomposeActions finalize sshpk@1.16.1
+420 silly decomposeActions refresh-package-json sshpk@1.16.1
+421 silly decomposeActions fetch uri-js@4.2.2
+422 silly decomposeActions extract uri-js@4.2.2
+423 silly decomposeActions preinstall uri-js@4.2.2
+424 silly decomposeActions build uri-js@4.2.2
+425 silly decomposeActions install uri-js@4.2.2
+426 silly decomposeActions postinstall uri-js@4.2.2
+427 silly decomposeActions finalize uri-js@4.2.2
+428 silly decomposeActions refresh-package-json uri-js@4.2.2
+429 silly decomposeActions fetch ajv@6.10.0
+430 silly decomposeActions extract ajv@6.10.0
+431 silly decomposeActions preinstall ajv@6.10.0
+432 silly decomposeActions build ajv@6.10.0
+433 silly decomposeActions install ajv@6.10.0
+434 silly decomposeActions postinstall ajv@6.10.0
+435 silly decomposeActions finalize ajv@6.10.0
+436 silly decomposeActions refresh-package-json ajv@6.10.0
+437 silly decomposeActions fetch verror@1.10.0
+438 silly decomposeActions extract verror@1.10.0
+439 silly decomposeActions preinstall verror@1.10.0
+440 silly decomposeActions build verror@1.10.0
+441 silly decomposeActions install verror@1.10.0
+442 silly decomposeActions postinstall verror@1.10.0
+443 silly decomposeActions finalize verror@1.10.0
+444 silly decomposeActions refresh-package-json verror@1.10.0
+445 silly decomposeActions fetch jsprim@1.4.1
+446 silly decomposeActions extract jsprim@1.4.1
+447 silly decomposeActions preinstall jsprim@1.4.1
+448 silly decomposeActions build jsprim@1.4.1
+449 silly decomposeActions install jsprim@1.4.1
+450 silly decomposeActions postinstall jsprim@1.4.1
+451 silly decomposeActions finalize jsprim@1.4.1
+452 silly decomposeActions refresh-package-json jsprim@1.4.1
+453 silly decomposeActions fetch aws-sign2@0.7.0
+454 silly decomposeActions extract aws-sign2@0.7.0
+455 silly decomposeActions preinstall aws-sign2@0.7.0
+456 silly decomposeActions build aws-sign2@0.7.0
+457 silly decomposeActions install aws-sign2@0.7.0
+458 silly decomposeActions postinstall aws-sign2@0.7.0
+459 silly decomposeActions finalize aws-sign2@0.7.0
+460 silly decomposeActions refresh-package-json aws-sign2@0.7.0
+461 silly decomposeActions fetch aws4@1.8.0
+462 silly decomposeActions extract aws4@1.8.0
+463 silly decomposeActions preinstall aws4@1.8.0
+464 silly decomposeActions build aws4@1.8.0
+465 silly decomposeActions install aws4@1.8.0
+466 silly decomposeActions postinstall aws4@1.8.0
+467 silly decomposeActions finalize aws4@1.8.0
+468 silly decomposeActions refresh-package-json aws4@1.8.0
+469 silly decomposeActions fetch caseless@0.12.0
+470 silly decomposeActions extract caseless@0.12.0
+471 silly decomposeActions preinstall caseless@0.12.0
+472 silly decomposeActions build caseless@0.12.0
+473 silly decomposeActions install caseless@0.12.0
+474 silly decomposeActions postinstall caseless@0.12.0
+475 silly decomposeActions finalize caseless@0.12.0
+476 silly decomposeActions refresh-package-json caseless@0.12.0
+477 silly decomposeActions fetch extend@3.0.2
+478 silly decomposeActions extract extend@3.0.2
+479 silly decomposeActions preinstall extend@3.0.2
+480 silly decomposeActions build extend@3.0.2
+481 silly decomposeActions install extend@3.0.2
+482 silly decomposeActions postinstall extend@3.0.2
+483 silly decomposeActions finalize extend@3.0.2
+484 silly decomposeActions refresh-package-json extend@3.0.2
+485 silly decomposeActions fetch forever-agent@0.6.1
+486 silly decomposeActions extract forever-agent@0.6.1
+487 silly decomposeActions preinstall forever-agent@0.6.1
+488 silly decomposeActions build forever-agent@0.6.1
+489 silly decomposeActions install forever-agent@0.6.1
+490 silly decomposeActions postinstall forever-agent@0.6.1
+491 silly decomposeActions finalize forever-agent@0.6.1
+492 silly decomposeActions refresh-package-json forever-agent@0.6.1
+493 silly decomposeActions fetch form-data@2.3.3
+494 silly decomposeActions extract form-data@2.3.3
+495 silly decomposeActions preinstall form-data@2.3.3
+496 silly decomposeActions build form-data@2.3.3
+497 silly decomposeActions install form-data@2.3.3
+498 silly decomposeActions postinstall form-data@2.3.3
+499 silly decomposeActions finalize form-data@2.3.3
+500 silly decomposeActions refresh-package-json form-data@2.3.3
+501 silly decomposeActions fetch har-validator@5.1.3
+502 silly decomposeActions extract har-validator@5.1.3
+503 silly decomposeActions preinstall har-validator@5.1.3
+504 silly decomposeActions build har-validator@5.1.3
+505 silly decomposeActions install har-validator@5.1.3
+506 silly decomposeActions postinstall har-validator@5.1.3
+507 silly decomposeActions finalize har-validator@5.1.3
+508 silly decomposeActions refresh-package-json har-validator@5.1.3
+509 silly decomposeActions fetch http-signature@1.2.0
+510 silly decomposeActions extract http-signature@1.2.0
+511 silly decomposeActions preinstall http-signature@1.2.0
+512 silly decomposeActions build http-signature@1.2.0
+513 silly decomposeActions install http-signature@1.2.0
+514 silly decomposeActions postinstall http-signature@1.2.0
+515 silly decomposeActions finalize http-signature@1.2.0
+516 silly decomposeActions refresh-package-json http-signature@1.2.0
+517 silly decomposeActions fetch is-typedarray@1.0.0
+518 silly decomposeActions extract is-typedarray@1.0.0
+519 silly decomposeActions preinstall is-typedarray@1.0.0
+520 silly decomposeActions build is-typedarray@1.0.0
+521 silly decomposeActions install is-typedarray@1.0.0
+522 silly decomposeActions postinstall is-typedarray@1.0.0
+523 silly decomposeActions finalize is-typedarray@1.0.0
+524 silly decomposeActions refresh-package-json is-typedarray@1.0.0
+525 silly decomposeActions fetch isstream@0.1.2
+526 silly decomposeActions extract isstream@0.1.2
+527 silly decomposeActions preinstall isstream@0.1.2
+528 silly decomposeActions build isstream@0.1.2
+529 silly decomposeActions install isstream@0.1.2
+530 silly decomposeActions postinstall isstream@0.1.2
+531 silly decomposeActions finalize isstream@0.1.2
+532 silly decomposeActions refresh-package-json isstream@0.1.2
+533 silly decomposeActions fetch json-stringify-safe@5.0.1
+534 silly decomposeActions extract json-stringify-safe@5.0.1
+535 silly decomposeActions preinstall json-stringify-safe@5.0.1
+536 silly decomposeActions build json-stringify-safe@5.0.1
+537 silly decomposeActions install json-stringify-safe@5.0.1
+538 silly decomposeActions postinstall json-stringify-safe@5.0.1
+539 silly decomposeActions finalize json-stringify-safe@5.0.1
+540 silly decomposeActions refresh-package-json json-stringify-safe@5.0.1
+541 silly decomposeActions fetch oauth-sign@0.9.0
+542 silly decomposeActions extract oauth-sign@0.9.0
+543 silly decomposeActions preinstall oauth-sign@0.9.0
+544 silly decomposeActions build oauth-sign@0.9.0
+545 silly decomposeActions install oauth-sign@0.9.0
+546 silly decomposeActions postinstall oauth-sign@0.9.0
+547 silly decomposeActions finalize oauth-sign@0.9.0
+548 silly decomposeActions refresh-package-json oauth-sign@0.9.0
+549 silly decomposeActions fetch performance-now@2.1.0
+550 silly decomposeActions extract performance-now@2.1.0
+551 silly decomposeActions preinstall performance-now@2.1.0
+552 silly decomposeActions build performance-now@2.1.0
+553 silly decomposeActions install performance-now@2.1.0
+554 silly decomposeActions postinstall performance-now@2.1.0
+555 silly decomposeActions finalize performance-now@2.1.0
+556 silly decomposeActions refresh-package-json performance-now@2.1.0
+557 silly decomposeActions fetch qs@6.5.2
+558 silly decomposeActions extract qs@6.5.2
+559 silly decomposeActions preinstall qs@6.5.2
+560 silly decomposeActions build qs@6.5.2
+561 silly decomposeActions install qs@6.5.2
+562 silly decomposeActions postinstall qs@6.5.2
+563 silly decomposeActions finalize qs@6.5.2
+564 silly decomposeActions refresh-package-json qs@6.5.2
+565 silly decomposeActions fetch tough-cookie@2.4.3
+566 silly decomposeActions extract tough-cookie@2.4.3
+567 silly decomposeActions preinstall tough-cookie@2.4.3
+568 silly decomposeActions build tough-cookie@2.4.3
+569 silly decomposeActions install tough-cookie@2.4.3
+570 silly decomposeActions postinstall tough-cookie@2.4.3
+571 silly decomposeActions finalize tough-cookie@2.4.3
+572 silly decomposeActions refresh-package-json tough-cookie@2.4.3
+573 silly decomposeActions fetch tunnel-agent@0.6.0
+574 silly decomposeActions extract tunnel-agent@0.6.0
+575 silly decomposeActions preinstall tunnel-agent@0.6.0
+576 silly decomposeActions build tunnel-agent@0.6.0
+577 silly decomposeActions install tunnel-agent@0.6.0
+578 silly decomposeActions postinstall tunnel-agent@0.6.0
+579 silly decomposeActions finalize tunnel-agent@0.6.0
+580 silly decomposeActions refresh-package-json tunnel-agent@0.6.0
+581 silly decomposeActions fetch uuid@3.3.2
+582 silly decomposeActions extract uuid@3.3.2
+583 silly decomposeActions preinstall uuid@3.3.2
+584 silly decomposeActions build uuid@3.3.2
+585 silly decomposeActions install uuid@3.3.2
+586 silly decomposeActions postinstall uuid@3.3.2
+587 silly decomposeActions finalize uuid@3.3.2
+588 silly decomposeActions refresh-package-json uuid@3.3.2
+589 silly decomposeActions fetch request@2.88.0
+590 silly decomposeActions extract request@2.88.0
+591 silly decomposeActions preinstall request@2.88.0
+592 silly decomposeActions build request@2.88.0
+593 silly decomposeActions install request@2.88.0
+594 silly decomposeActions postinstall request@2.88.0
+595 silly decomposeActions finalize request@2.88.0
+596 silly decomposeActions refresh-package-json request@2.88.0
+597 silly install executeActions
+598 silly doSerial global-install 384
+599 verbose correctMkdir /home/vagrant/.npm/_locks correctMkdir not in flight; initializing
+600 verbose lock using /home/vagrant/.npm/_locks/staging-05200728724d57f7.lock for /vagrant/w2d1/request-package/node_modules/.staging
+601 silly doParallel extract 48
+602 silly extract assert-plus@1.0.0
+603 silly extract asynckit@0.4.0
+604 silly extract core-util-is@1.0.2
+605 silly extract dashdash@1.14.1
+606 silly extract delayed-stream@1.0.0
+607 silly extract combined-stream@1.0.7
+608 silly extract extsprintf@1.3.0
+609 silly extract fast-deep-equal@2.0.1
+610 silly extract fast-json-stable-stringify@2.0.0
+611 silly extract getpass@0.1.7
+612 silly extract har-schema@2.0.0
+613 silly extract jsbn@0.1.1
+614 silly extract json-schema@0.2.3
+615 silly extract json-schema-traverse@0.4.1
+616 silly extract mime-db@1.38.0
+617 silly extract mime-types@2.1.22
+618 silly extract psl@1.1.31
+619 silly extract punycode@2.1.1
+620 silly extract safe-buffer@5.1.2
+621 silly extract safer-buffer@2.1.2
+622 silly extract asn1@0.2.4
+623 silly extract ecc-jsbn@0.1.2
+624 silly extract punycode@1.4.1
+625 silly extract tweetnacl@0.14.5
+626 silly extract bcrypt-pbkdf@1.0.2
+627 silly extract sshpk@1.16.1
+628 silly extract uri-js@4.2.2
+629 silly extract ajv@6.10.0
+630 silly extract verror@1.10.0
+631 silly extract jsprim@1.4.1
+632 silly extract aws-sign2@0.7.0
+633 silly extract aws4@1.8.0
+634 silly extract caseless@0.12.0
+635 silly extract extend@3.0.2
+636 silly extract forever-agent@0.6.1
+637 silly extract form-data@2.3.3
+638 silly extract har-validator@5.1.3
+639 silly extract http-signature@1.2.0
+640 silly extract is-typedarray@1.0.0
+641 silly extract isstream@0.1.2
+642 silly extract json-stringify-safe@5.0.1
+643 silly extract oauth-sign@0.9.0
+644 silly extract performance-now@2.1.0
+645 silly extract qs@6.5.2
+646 silly extract tough-cookie@2.4.3
+647 silly extract tunnel-agent@0.6.0
+648 silly extract uuid@3.3.2
+649 silly extract request@2.88.0
+650 silly tarball trying assert-plus@^1.0.0 by hash: sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
+651 silly tarball trying asynckit@^0.4.0 by hash: sha1-x57Zf380y48robyXkLzDZkdLS3k=
+652 silly tarball trying core-util-is@1.0.2 by hash: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+653 silly tarball trying dashdash@^1.12.0 by hash: sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
+654 silly tarball trying delayed-stream@~1.0.0 by hash: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+655 silly tarball trying combined-stream@~1.0.6 by hash: sha512-brWl9y6vOB1xYPZcpZde3N9zDByXTosAeMDo4p1wzo6UMOX4vumB+TP1RZ76sfE6Md68Q0NJSrE/gbezd4Ul+w==
+656 silly tarball trying extsprintf@1.3.0 by hash: sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
+657 silly tarball trying fast-deep-equal@^2.0.1 by hash: sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
+658 silly tarball trying fast-json-stable-stringify@^2.0.0 by hash: sha1-1RQsDK7msRifh9OnYREGT4bIu/I=
+659 silly tarball trying getpass@^0.1.1 by hash: sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
+660 silly tarball trying har-schema@^2.0.0 by hash: sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI=
+661 silly tarball trying jsbn@~0.1.0 by hash: sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
+662 silly tarball trying json-schema@0.2.3 by hash: sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
+663 silly tarball trying json-schema-traverse@^0.4.1 by hash: sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==
+664 silly tarball trying mime-db@~1.38.0 by hash: sha512-bqVioMFFzc2awcdJZIzR3HjZFX20QhilVS7hytkKrv7xFAn8bM1gzc/FOX2awLISvWe0PV8ptFKcon+wZ5qYkg==
+665 silly tarball trying mime-types@~2.1.19 by hash: sha512-aGl6TZGnhm/li6F7yx82bJiBZwgiEa4Hf6CNr8YO+r5UHr53tSTYZb102zyU50DOWWKeOv0uQLRL0/9EiKWCog==
+666 silly tarball trying psl@^1.1.24 by hash: sha512-/6pt4+C+T+wZUieKR620OpzN/LlnNKuWjy1iFLQ/UG35JqHlR/89MP1d96dUfkf6Dne3TuLQzOYEYshJ+Hx8mw==
+667 silly tarball trying punycode@^2.1.0 by hash: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+668 silly tarball trying safe-buffer@^5.1.2 by hash: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+669 silly tarball trying safer-buffer@^2.0.2 by hash: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+670 silly tarball trying asn1@~0.2.3 by hash: sha512-jxwzQpLQjSmWXgwaCZE9Nz+glAG01yF1QnWgbhGwHI5A6FRIEY6IVqtHhIepHqI7/kyEyQEagBC5mBEFlIYvdg==
+671 silly tarball trying ecc-jsbn@~0.1.1 by hash: sha1-OoOpBOVDUyh4dMVkt1SThoSamMk=
+672 silly tarball trying punycode@^1.4.1 by hash: sha1-wNWmOycYgArY4esPpSachN1BhF4=
+673 silly tarball trying tweetnacl@~0.14.0 by hash: sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+674 silly tarball trying bcrypt-pbkdf@^1.0.0 by hash: sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
+675 silly tarball trying sshpk@^1.7.0 by hash: sha512-HXXqVUq7+pcKeLqqZj6mHFUMvXtOJt1uoUx09pFW6011inTMxqI8BA8PM95myrIyyKwdnzjdFjLiE6KBPVtJIg==
+676 silly tarball trying uri-js@^4.2.2 by hash: sha512-KY9Frmirql91X2Qgjry0Wd4Y+YTdrdZheS8TFwvkbLWf/G5KNJDCh6pKL5OZctEW4+0Baa5idK2ZQuELRwPznQ==
+677 silly tarball trying ajv@^6.5.5 by hash: sha512-nffhOpkymDECQyR0mnsUtoCE8RlX38G0rYP+wgLWFyZuUyuuojSSvi/+euOiQBIn63whYwYVIIH1TvE3tu4OEg==
+678 silly tarball trying verror@1.10.0 by hash: sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=
+679 silly tarball trying jsprim@^1.2.2 by hash: sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
+680 silly tarball trying aws-sign2@~0.7.0 by hash: sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
+681 silly tarball trying aws4@^1.8.0 by hash: sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
+682 silly tarball trying caseless@~0.12.0 by hash: sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
+683 silly tarball trying extend@~3.0.2 by hash: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
+684 silly tarball trying forever-agent@~0.6.1 by hash: sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
+685 silly tarball trying form-data@~2.3.2 by hash: sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==
+686 silly tarball trying har-validator@~5.1.0 by hash: sha512-sNvOCzEQNr/qrvJgc3UG/kD4QtlHycrzwS+6mfTrrSq97BvaYcPZZI1ZSqGSPR73Cxn4LKTD4PttRwfU7jWq5g==
+687 silly tarball trying http-signature@~1.2.0 by hash: sha1-muzZJRFHcvPZW2WmCruPfBj7rOE=
+688 silly tarball trying is-typedarray@~1.0.0 by hash: sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+689 silly tarball trying isstream@~0.1.2 by hash: sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
+690 silly tarball trying json-stringify-safe@~5.0.1 by hash: sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
+691 silly tarball trying oauth-sign@~0.9.0 by hash: sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
+692 silly tarball trying performance-now@^2.1.0 by hash: sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+693 silly tarball trying qs@~6.5.2 by hash: sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+694 silly tarball trying tough-cookie@~2.4.3 by hash: sha512-Q5srk/4vDM54WJsJio3XNn6K2sCG+CQ8G5Wz6bZhRZoAe/+TxjWB/GlFAnYEbkYVlON9FMk/fE3h2RLpPXo4lQ==
+695 silly tarball trying tunnel-agent@^0.6.0 by hash: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
+696 silly tarball trying uuid@^3.3.2 by hash: sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
+697 silly tarball trying request@latest by hash: sha512-NAqBSrijGLZdM0WZNsInLJpkJokL72XYjUpnB0iwsRgxh7dB6COrHnTBNwN0E+lHDAJzu7kLAkDeY08z2/A0hg==
+698 timing audit submit Completed in 1147ms
+699 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 1147ms
+700 timing audit body Completed in 1ms
+701 silly extract oauth-sign@~0.9.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/oauth-sign-aae0b3ab (1727ms)
+702 silly extract assert-plus@^1.0.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/assert-plus-a78de2b0 (1760ms)
+703 silly extract forever-agent@~0.6.1 extracted to /vagrant/w2d1/request-package/node_modules/.staging/forever-agent-1ffdf634 (1763ms)
+704 silly extract fast-deep-equal@^2.0.1 extracted to /vagrant/w2d1/request-package/node_modules/.staging/fast-deep-equal-8b41cbe5 (1789ms)
+705 silly extract caseless@~0.12.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/caseless-c3d52111 (1810ms)
+706 silly extract aws-sign2@~0.7.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/aws-sign2-8783369f (1813ms)
+707 silly extract tunnel-agent@^0.6.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/tunnel-agent-af0579e0 (1811ms)
+708 silly extract is-typedarray@~1.0.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/is-typedarray-23c4f897 (1823ms)
+709 silly extract mime-types@~2.1.19 extracted to /vagrant/w2d1/request-package/node_modules/.staging/mime-types-d3ca44f3 (1878ms)
+710 silly extract punycode@^1.4.1 extracted to /vagrant/w2d1/request-package/node_modules/.staging/punycode-1ee74ed2 (1914ms)
+711 silly extract delayed-stream@~1.0.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/delayed-stream-92547c70 (1931ms)
+712 silly extract safe-buffer@^5.1.2 extracted to /vagrant/w2d1/request-package/node_modules/.staging/safe-buffer-2610d43d (1933ms)
+713 silly extract getpass@^0.1.1 extracted to /vagrant/w2d1/request-package/node_modules/.staging/getpass-402b6e02 (1942ms)
+714 silly extract har-validator@~5.1.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/har-validator-95983717 (1984ms)
+715 silly extract punycode@^2.1.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/punycode-95430686 (2026ms)
+716 silly extract bcrypt-pbkdf@^1.0.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/bcrypt-pbkdf-cf02f773 (2021ms)
+717 silly extract jsprim@^1.2.2 extracted to /vagrant/w2d1/request-package/node_modules/.staging/jsprim-312072b6 (2053ms)
+718 silly extract core-util-is@1.0.2 extracted to /vagrant/w2d1/request-package/node_modules/.staging/core-util-is-d789788b (2079ms)
+719 silly extract aws4@^1.8.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/aws4-63872f78 (2095ms)
+720 silly extract safer-buffer@^2.0.2 extracted to /vagrant/w2d1/request-package/node_modules/.staging/safer-buffer-9e6a895e (2157ms)
+721 silly extract extend@~3.0.2 extracted to /vagrant/w2d1/request-package/node_modules/.staging/extend-88031b77 (2151ms)
+722 silly extract isstream@~0.1.2 extracted to /vagrant/w2d1/request-package/node_modules/.staging/isstream-02b3456e (2170ms)
+723 silly extract jsbn@~0.1.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/jsbn-fb70b7ee (2219ms)
+724 silly extract verror@1.10.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/verror-8c873e58 (2223ms)
+725 silly extract extsprintf@1.3.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/extsprintf-0e063583 (2266ms)
+726 silly extract json-stringify-safe@~5.0.1 extracted to /vagrant/w2d1/request-package/node_modules/.staging/json-stringify-safe-6772e336 (2281ms)
+727 silly extract combined-stream@~1.0.6 extracted to /vagrant/w2d1/request-package/node_modules/.staging/combined-stream-e161395b (2313ms)
+728 silly extract asn1@~0.2.3 extracted to /vagrant/w2d1/request-package/node_modules/.staging/asn1-ccb6055b (2342ms)
+729 silly extract json-schema-traverse@^0.4.1 extracted to /vagrant/w2d1/request-package/node_modules/.staging/json-schema-traverse-3be8d28e (2348ms)
+730 silly extract dashdash@^1.12.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/dashdash-2432d6a2 (2451ms)
+731 silly extract tough-cookie@~2.4.3 extracted to /vagrant/w2d1/request-package/node_modules/.staging/tough-cookie-3e67531f (2474ms)
+732 silly extract mime-db@~1.38.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/mime-db-98bb8c3c (2561ms)
+733 silly extract performance-now@^2.1.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/performance-now-6b1586ef (2563ms)
+734 silly extract form-data@~2.3.2 extracted to /vagrant/w2d1/request-package/node_modules/.staging/form-data-bcc10853 (2601ms)
+735 silly extract http-signature@~1.2.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/http-signature-f23334ff (2605ms)
+736 silly extract ecc-jsbn@~0.1.1 extracted to /vagrant/w2d1/request-package/node_modules/.staging/ecc-jsbn-dbcf0847 (2625ms)
+737 silly extract asynckit@^0.4.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/asynckit-7d38dcfa (2640ms)
+738 silly extract fast-json-stable-stringify@^2.0.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/fast-json-stable-stringify-4ff54eb0 (2752ms)
+739 silly extract har-schema@^2.0.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/har-schema-4eefa5da (2808ms)
+740 silly extract tweetnacl@~0.14.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/tweetnacl-e3954ff8 (2802ms)
+741 silly extract uuid@^3.3.2 extracted to /vagrant/w2d1/request-package/node_modules/.staging/uuid-fe09fbbc (2832ms)
+742 silly extract qs@~6.5.2 extracted to /vagrant/w2d1/request-package/node_modules/.staging/qs-4eeeb882 (2931ms)
+743 silly extract request@latest extracted to /vagrant/w2d1/request-package/node_modules/.staging/request-54e9b57f (2930ms)
+744 silly extract psl@^1.1.24 extracted to /vagrant/w2d1/request-package/node_modules/.staging/psl-38bf8ede (3046ms)
+745 silly extract json-schema@0.2.3 extracted to /vagrant/w2d1/request-package/node_modules/.staging/json-schema-a9d2d485 (3167ms)
+746 silly extract sshpk@^1.7.0 extracted to /vagrant/w2d1/request-package/node_modules/.staging/sshpk-1ae9f131 (3376ms)
+747 silly extract uri-js@^4.2.2 extracted to /vagrant/w2d1/request-package/node_modules/.staging/uri-js-9b92c20e (3693ms)
+748 silly extract ajv@^6.5.5 extracted to /vagrant/w2d1/request-package/node_modules/.staging/ajv-56413a9a (3955ms)
+749 timing action:extract Completed in 3977ms
+750 silly doReverseSerial unbuild 384
+751 silly doSerial remove 384
+752 silly doSerial move 384
+753 silly doSerial finalize 384
+754 silly finalize /vagrant/w2d1/request-package/node_modules/assert-plus
+755 silly finalize /vagrant/w2d1/request-package/node_modules/asynckit
+756 silly finalize /vagrant/w2d1/request-package/node_modules/core-util-is
+757 silly finalize /vagrant/w2d1/request-package/node_modules/dashdash
+758 silly finalize /vagrant/w2d1/request-package/node_modules/delayed-stream
+759 silly finalize /vagrant/w2d1/request-package/node_modules/combined-stream
+760 silly finalize /vagrant/w2d1/request-package/node_modules/extsprintf
+761 silly finalize /vagrant/w2d1/request-package/node_modules/fast-deep-equal
+762 silly finalize /vagrant/w2d1/request-package/node_modules/fast-json-stable-stringify
+763 silly finalize /vagrant/w2d1/request-package/node_modules/getpass
+764 silly finalize /vagrant/w2d1/request-package/node_modules/har-schema
+765 silly finalize /vagrant/w2d1/request-package/node_modules/jsbn
+766 silly finalize /vagrant/w2d1/request-package/node_modules/json-schema
+767 silly finalize /vagrant/w2d1/request-package/node_modules/json-schema-traverse
+768 silly finalize /vagrant/w2d1/request-package/node_modules/mime-db
+769 silly finalize /vagrant/w2d1/request-package/node_modules/mime-types
+770 silly finalize /vagrant/w2d1/request-package/node_modules/psl
+771 silly finalize /vagrant/w2d1/request-package/node_modules/punycode
+772 silly finalize /vagrant/w2d1/request-package/node_modules/safe-buffer
+773 silly finalize /vagrant/w2d1/request-package/node_modules/safer-buffer
+774 silly finalize /vagrant/w2d1/request-package/node_modules/asn1
+775 silly finalize /vagrant/w2d1/request-package/node_modules/ecc-jsbn
+776 silly finalize /vagrant/w2d1/request-package/node_modules/tough-cookie/node_modules/punycode
+777 silly finalize /vagrant/w2d1/request-package/node_modules/tweetnacl
+778 silly finalize /vagrant/w2d1/request-package/node_modules/bcrypt-pbkdf
+779 silly finalize /vagrant/w2d1/request-package/node_modules/sshpk
+780 silly finalize /vagrant/w2d1/request-package/node_modules/uri-js
+781 silly finalize /vagrant/w2d1/request-package/node_modules/ajv
+782 silly finalize /vagrant/w2d1/request-package/node_modules/verror
+783 silly finalize /vagrant/w2d1/request-package/node_modules/jsprim
+784 silly finalize /vagrant/w2d1/request-package/node_modules/aws-sign2
+785 silly finalize /vagrant/w2d1/request-package/node_modules/aws4
+786 silly finalize /vagrant/w2d1/request-package/node_modules/caseless
+787 silly finalize /vagrant/w2d1/request-package/node_modules/extend
+788 silly finalize /vagrant/w2d1/request-package/node_modules/forever-agent
+789 silly finalize /vagrant/w2d1/request-package/node_modules/form-data
+790 silly finalize /vagrant/w2d1/request-package/node_modules/har-validator
+791 silly finalize /vagrant/w2d1/request-package/node_modules/http-signature
+792 silly finalize /vagrant/w2d1/request-package/node_modules/is-typedarray
+793 silly finalize /vagrant/w2d1/request-package/node_modules/isstream
+794 silly finalize /vagrant/w2d1/request-package/node_modules/json-stringify-safe
+795 silly finalize /vagrant/w2d1/request-package/node_modules/oauth-sign
+796 silly finalize /vagrant/w2d1/request-package/node_modules/performance-now
+797 silly finalize /vagrant/w2d1/request-package/node_modules/qs
+798 silly finalize /vagrant/w2d1/request-package/node_modules/tough-cookie
+799 silly finalize /vagrant/w2d1/request-package/node_modules/tunnel-agent
+800 silly finalize /vagrant/w2d1/request-package/node_modules/uuid
+801 silly finalize /vagrant/w2d1/request-package/node_modules/request
+802 timing action:finalize Completed in 893ms
+803 silly doParallel refresh-package-json 48
+804 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/assert-plus
+805 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/asynckit
+806 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/core-util-is
+807 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/dashdash
+808 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/delayed-stream
+809 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/combined-stream
+810 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/extsprintf
+811 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/fast-deep-equal
+812 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/fast-json-stable-stringify
+813 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/getpass
+814 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/har-schema
+815 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/jsbn
+816 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/json-schema
+817 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/json-schema-traverse
+818 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/mime-db
+819 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/mime-types
+820 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/psl
+821 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/punycode
+822 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/safe-buffer
+823 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/safer-buffer
+824 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/asn1
+825 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/ecc-jsbn
+826 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/tough-cookie/node_modules/punycode
+827 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/tweetnacl
+828 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/bcrypt-pbkdf
+829 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/sshpk
+830 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/uri-js
+831 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/ajv
+832 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/verror
+833 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/jsprim
+834 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/aws-sign2
+835 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/aws4
+836 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/caseless
+837 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/extend
+838 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/forever-agent
+839 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/form-data
+840 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/har-validator
+841 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/http-signature
+842 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/is-typedarray
+843 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/isstream
+844 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/json-stringify-safe
+845 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/oauth-sign
+846 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/performance-now
+847 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/qs
+848 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/tough-cookie
+849 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/tunnel-agent
+850 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/uuid
+851 silly refresh-package-json /vagrant/w2d1/request-package/node_modules/request
+852 timing action:refresh-package-json Completed in 1507ms
+853 silly doParallel preinstall 48
+854 silly preinstall assert-plus@1.0.0
+855 info lifecycle assert-plus@1.0.0~preinstall: assert-plus@1.0.0
+856 silly preinstall asynckit@0.4.0
+857 info lifecycle asynckit@0.4.0~preinstall: asynckit@0.4.0
+858 silly preinstall core-util-is@1.0.2
+859 info lifecycle core-util-is@1.0.2~preinstall: core-util-is@1.0.2
+860 silly preinstall dashdash@1.14.1
+861 info lifecycle dashdash@1.14.1~preinstall: dashdash@1.14.1
+862 silly preinstall delayed-stream@1.0.0
+863 info lifecycle delayed-stream@1.0.0~preinstall: delayed-stream@1.0.0
+864 silly preinstall combined-stream@1.0.7
+865 info lifecycle combined-stream@1.0.7~preinstall: combined-stream@1.0.7
+866 silly preinstall extsprintf@1.3.0
+867 info lifecycle extsprintf@1.3.0~preinstall: extsprintf@1.3.0
+868 silly preinstall fast-deep-equal@2.0.1
+869 info lifecycle fast-deep-equal@2.0.1~preinstall: fast-deep-equal@2.0.1
+870 silly preinstall fast-json-stable-stringify@2.0.0
+871 info lifecycle fast-json-stable-stringify@2.0.0~preinstall: fast-json-stable-stringify@2.0.0
+872 silly preinstall getpass@0.1.7
+873 info lifecycle getpass@0.1.7~preinstall: getpass@0.1.7
+874 silly preinstall har-schema@2.0.0
+875 info lifecycle har-schema@2.0.0~preinstall: har-schema@2.0.0
+876 silly preinstall jsbn@0.1.1
+877 info lifecycle jsbn@0.1.1~preinstall: jsbn@0.1.1
+878 silly preinstall json-schema@0.2.3
+879 info lifecycle json-schema@0.2.3~preinstall: json-schema@0.2.3
+880 silly preinstall json-schema-traverse@0.4.1
+881 info lifecycle json-schema-traverse@0.4.1~preinstall: json-schema-traverse@0.4.1
+882 silly preinstall mime-db@1.38.0
+883 info lifecycle mime-db@1.38.0~preinstall: mime-db@1.38.0
+884 silly preinstall mime-types@2.1.22
+885 info lifecycle mime-types@2.1.22~preinstall: mime-types@2.1.22
+886 silly preinstall psl@1.1.31
+887 info lifecycle psl@1.1.31~preinstall: psl@1.1.31
+888 silly preinstall punycode@2.1.1
+889 info lifecycle punycode@2.1.1~preinstall: punycode@2.1.1
+890 silly preinstall safe-buffer@5.1.2
+891 info lifecycle safe-buffer@5.1.2~preinstall: safe-buffer@5.1.2
+892 silly preinstall safer-buffer@2.1.2
+893 info lifecycle safer-buffer@2.1.2~preinstall: safer-buffer@2.1.2
+894 silly preinstall asn1@0.2.4
+895 info lifecycle asn1@0.2.4~preinstall: asn1@0.2.4
+896 silly preinstall ecc-jsbn@0.1.2
+897 info lifecycle ecc-jsbn@0.1.2~preinstall: ecc-jsbn@0.1.2
+898 silly preinstall punycode@1.4.1
+899 info lifecycle punycode@1.4.1~preinstall: punycode@1.4.1
+900 silly preinstall tweetnacl@0.14.5
+901 info lifecycle tweetnacl@0.14.5~preinstall: tweetnacl@0.14.5
+902 silly preinstall bcrypt-pbkdf@1.0.2
+903 info lifecycle bcrypt-pbkdf@1.0.2~preinstall: bcrypt-pbkdf@1.0.2
+904 silly preinstall sshpk@1.16.1
+905 info lifecycle sshpk@1.16.1~preinstall: sshpk@1.16.1
+906 silly preinstall uri-js@4.2.2
+907 info lifecycle uri-js@4.2.2~preinstall: uri-js@4.2.2
+908 silly preinstall ajv@6.10.0
+909 info lifecycle ajv@6.10.0~preinstall: ajv@6.10.0
+910 silly preinstall verror@1.10.0
+911 info lifecycle verror@1.10.0~preinstall: verror@1.10.0
+912 silly preinstall jsprim@1.4.1
+913 info lifecycle jsprim@1.4.1~preinstall: jsprim@1.4.1
+914 silly preinstall aws-sign2@0.7.0
+915 info lifecycle aws-sign2@0.7.0~preinstall: aws-sign2@0.7.0
+916 silly preinstall aws4@1.8.0
+917 info lifecycle aws4@1.8.0~preinstall: aws4@1.8.0
+918 silly preinstall caseless@0.12.0
+919 info lifecycle caseless@0.12.0~preinstall: caseless@0.12.0
+920 silly preinstall extend@3.0.2
+921 info lifecycle extend@3.0.2~preinstall: extend@3.0.2
+922 silly preinstall forever-agent@0.6.1
+923 info lifecycle forever-agent@0.6.1~preinstall: forever-agent@0.6.1
+924 silly preinstall form-data@2.3.3
+925 info lifecycle form-data@2.3.3~preinstall: form-data@2.3.3
+926 silly preinstall har-validator@5.1.3
+927 info lifecycle har-validator@5.1.3~preinstall: har-validator@5.1.3
+928 silly preinstall http-signature@1.2.0
+929 info lifecycle http-signature@1.2.0~preinstall: http-signature@1.2.0
+930 silly preinstall is-typedarray@1.0.0
+931 info lifecycle is-typedarray@1.0.0~preinstall: is-typedarray@1.0.0
+932 silly preinstall isstream@0.1.2
+933 info lifecycle isstream@0.1.2~preinstall: isstream@0.1.2
+934 silly preinstall json-stringify-safe@5.0.1
+935 info lifecycle json-stringify-safe@5.0.1~preinstall: json-stringify-safe@5.0.1
+936 silly preinstall oauth-sign@0.9.0
+937 info lifecycle oauth-sign@0.9.0~preinstall: oauth-sign@0.9.0
+938 silly preinstall performance-now@2.1.0
+939 info lifecycle performance-now@2.1.0~preinstall: performance-now@2.1.0
+940 silly preinstall qs@6.5.2
+941 info lifecycle qs@6.5.2~preinstall: qs@6.5.2
+942 silly preinstall tough-cookie@2.4.3
+943 info lifecycle tough-cookie@2.4.3~preinstall: tough-cookie@2.4.3
+944 silly preinstall tunnel-agent@0.6.0
+945 info lifecycle tunnel-agent@0.6.0~preinstall: tunnel-agent@0.6.0
+946 silly preinstall uuid@3.3.2
+947 info lifecycle uuid@3.3.2~preinstall: uuid@3.3.2
+948 silly preinstall request@2.88.0
+949 info lifecycle request@2.88.0~preinstall: request@2.88.0
+950 timing action:preinstall Completed in 52ms
+951 silly doSerial build 384
+952 silly build assert-plus@1.0.0
+953 info linkStuff assert-plus@1.0.0
+954 silly linkStuff assert-plus@1.0.0 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+955 silly build asynckit@0.4.0
+956 info linkStuff asynckit@0.4.0
+957 silly linkStuff asynckit@0.4.0 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+958 silly build core-util-is@1.0.2
+959 info linkStuff core-util-is@1.0.2
+960 silly linkStuff core-util-is@1.0.2 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+961 silly build dashdash@1.14.1
+962 info linkStuff dashdash@1.14.1
+963 silly linkStuff dashdash@1.14.1 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+964 silly build delayed-stream@1.0.0
+965 info linkStuff delayed-stream@1.0.0
+966 silly linkStuff delayed-stream@1.0.0 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+967 silly build combined-stream@1.0.7
+968 info linkStuff combined-stream@1.0.7
+969 silly linkStuff combined-stream@1.0.7 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+970 silly build extsprintf@1.3.0
+971 info linkStuff extsprintf@1.3.0
+972 silly linkStuff extsprintf@1.3.0 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+973 silly build fast-deep-equal@2.0.1
+974 info linkStuff fast-deep-equal@2.0.1
+975 silly linkStuff fast-deep-equal@2.0.1 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+976 silly build fast-json-stable-stringify@2.0.0
+977 info linkStuff fast-json-stable-stringify@2.0.0
+978 silly linkStuff fast-json-stable-stringify@2.0.0 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+979 silly build getpass@0.1.7
+980 info linkStuff getpass@0.1.7
+981 silly linkStuff getpass@0.1.7 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+982 silly build har-schema@2.0.0
+983 info linkStuff har-schema@2.0.0
+984 silly linkStuff har-schema@2.0.0 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+985 silly build jsbn@0.1.1
+986 info linkStuff jsbn@0.1.1
+987 silly linkStuff jsbn@0.1.1 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+988 silly build json-schema@0.2.3
+989 info linkStuff json-schema@0.2.3
+990 silly linkStuff json-schema@0.2.3 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+991 silly build json-schema-traverse@0.4.1
+992 info linkStuff json-schema-traverse@0.4.1
+993 silly linkStuff json-schema-traverse@0.4.1 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+994 silly build mime-db@1.38.0
+995 info linkStuff mime-db@1.38.0
+996 silly linkStuff mime-db@1.38.0 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+997 silly build mime-types@2.1.22
+998 info linkStuff mime-types@2.1.22
+999 silly linkStuff mime-types@2.1.22 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+1000 silly build psl@1.1.31
+1001 info linkStuff psl@1.1.31
+1002 silly linkStuff psl@1.1.31 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+1003 silly build punycode@2.1.1
+1004 info linkStuff punycode@2.1.1
+1005 silly linkStuff punycode@2.1.1 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+1006 silly build safe-buffer@5.1.2
+1007 info linkStuff safe-buffer@5.1.2
+1008 silly linkStuff safe-buffer@5.1.2 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+1009 silly build safer-buffer@2.1.2
+1010 info linkStuff safer-buffer@2.1.2
+1011 silly linkStuff safer-buffer@2.1.2 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+1012 silly build asn1@0.2.4
+1013 info linkStuff asn1@0.2.4
+1014 silly linkStuff asn1@0.2.4 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+1015 silly build ecc-jsbn@0.1.2
+1016 info linkStuff ecc-jsbn@0.1.2
+1017 silly linkStuff ecc-jsbn@0.1.2 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+1018 silly build punycode@1.4.1
+1019 info linkStuff punycode@1.4.1
+1020 silly linkStuff punycode@1.4.1 has /vagrant/w2d1/request-package/node_modules/tough-cookie/node_modules as its parent node_modules
+1021 silly build tweetnacl@0.14.5
+1022 info linkStuff tweetnacl@0.14.5
+1023 silly linkStuff tweetnacl@0.14.5 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+1024 silly build bcrypt-pbkdf@1.0.2
+1025 info linkStuff bcrypt-pbkdf@1.0.2
+1026 silly linkStuff bcrypt-pbkdf@1.0.2 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+1027 silly build sshpk@1.16.1
+1028 info linkStuff sshpk@1.16.1
+1029 silly linkStuff sshpk@1.16.1 has /vagrant/w2d1/request-package/node_modules as its parent node_modules
+1030 verbose linkBins [ { 'sshpk-conv': 'bin/sshpk-conv',
+1030 verbose linkBins     'sshpk-sign': 'bin/sshpk-sign',
+1030 verbose linkBins     'sshpk-verify': 'bin/sshpk-verify' },
+1030 verbose linkBins   '/vagrant/w2d1/request-package/node_modules/.bin',
+1030 verbose linkBins   false ]
+1031 timing action:build Completed in 47ms
+1032 verbose unlock done using /home/vagrant/.npm/_locks/staging-05200728724d57f7.lock for /vagrant/w2d1/request-package/node_modules/.staging
+1033 timing stage:rollbackFailedOptional Completed in 597ms
+1034 timing stage:runTopLevelLifecycles Completed in 9327ms
+1035 silly saveTree request-package@1.0.0
+1035 silly saveTree └─┬ request@2.88.0
+1035 silly saveTree   ├── aws-sign2@0.7.0
+1035 silly saveTree   ├── aws4@1.8.0
+1035 silly saveTree   ├── caseless@0.12.0
+1035 silly saveTree   ├─┬ combined-stream@1.0.7
+1035 silly saveTree   │ └── delayed-stream@1.0.0
+1035 silly saveTree   ├── extend@3.0.2
+1035 silly saveTree   ├── forever-agent@0.6.1
+1035 silly saveTree   ├─┬ form-data@2.3.3
+1035 silly saveTree   │ ├── asynckit@0.4.0
+1035 silly saveTree   │ └─┬ mime-types@2.1.22
+1035 silly saveTree   │   └── mime-db@1.38.0
+1035 silly saveTree   ├─┬ har-validator@5.1.3
+1035 silly saveTree   │ ├─┬ ajv@6.10.0
+1035 silly saveTree   │ │ ├── fast-deep-equal@2.0.1
+1035 silly saveTree   │ │ ├── fast-json-stable-stringify@2.0.0
+1035 silly saveTree   │ │ ├── json-schema-traverse@0.4.1
+1035 silly saveTree   │ │ └─┬ uri-js@4.2.2
+1035 silly saveTree   │ │   └── punycode@2.1.1
+1035 silly saveTree   │ └── har-schema@2.0.0
+1035 silly saveTree   ├─┬ http-signature@1.2.0
+1035 silly saveTree   │ ├── assert-plus@1.0.0
+1035 silly saveTree   │ ├─┬ jsprim@1.4.1
+1035 silly saveTree   │ │ ├── extsprintf@1.3.0
+1035 silly saveTree   │ │ ├── json-schema@0.2.3
+1035 silly saveTree   │ │ └─┬ verror@1.10.0
+1035 silly saveTree   │ │   └── core-util-is@1.0.2
+1035 silly saveTree   │ └─┬ sshpk@1.16.1
+1035 silly saveTree   │   ├─┬ asn1@0.2.4
+1035 silly saveTree   │   │ └── safer-buffer@2.1.2
+1035 silly saveTree   │   ├─┬ bcrypt-pbkdf@1.0.2
+1035 silly saveTree   │   │ └── tweetnacl@0.14.5
+1035 silly saveTree   │   ├── dashdash@1.14.1
+1035 silly saveTree   │   ├─┬ ecc-jsbn@0.1.2
+1035 silly saveTree   │   │ └── jsbn@0.1.1
+1035 silly saveTree   │   ├── getpass@0.1.7
+1035 silly saveTree   │   ├── jsbn@0.1.1
+1035 silly saveTree   │   ├── safer-buffer@2.1.2
+1035 silly saveTree   │   └── tweetnacl@0.14.5
+1035 silly saveTree   ├── is-typedarray@1.0.0
+1035 silly saveTree   ├── isstream@0.1.2
+1035 silly saveTree   ├── json-stringify-safe@5.0.1
+1035 silly saveTree   ├── mime-types@2.1.22
+1035 silly saveTree   ├── oauth-sign@0.9.0
+1035 silly saveTree   ├── performance-now@2.1.0
+1035 silly saveTree   ├── qs@6.5.2
+1035 silly saveTree   ├── safe-buffer@5.1.2
+1035 silly saveTree   ├─┬ tough-cookie@2.4.3
+1035 silly saveTree   │ ├── psl@1.1.31
+1035 silly saveTree   │ └── punycode@1.4.1
+1035 silly saveTree   ├── tunnel-agent@0.6.0
+1035 silly saveTree   └── uuid@3.3.2
+1036 warn request-package@1.0.0 No description
+1037 warn request-package@1.0.0 No repository field.
+1038 verbose stack Error: EPROTO: protocol error, symlink '../sshpk/bin/sshpk-verify' -> '/vagrant/w2d1/request-package/node_modules/.bin/sshpk-verify'
+1039 verbose cwd /vagrant/w2d1/request-package
+1040 verbose Linux 4.4.0-87-generic
+1041 verbose argv "/home/vagrant/.nvm/versions/node/v8.9.4/bin/node" "/home/vagrant/.nvm/versions/node/v8.9.4/bin/npm" "install" "request"
+1042 verbose node v8.9.4
+1043 verbose npm  v6.8.0
+1044 error path ../sshpk/bin/sshpk-verify
+1045 error code EPROTO
+1046 error errno -71
+1047 error syscall symlink
+1048 error EPROTO: protocol error, symlink '../sshpk/bin/sshpk-verify' -> '/vagrant/w2d1/request-package/node_modules/.bin/sshpk-verify'
+1049 verbose exit [ -71, true ]
